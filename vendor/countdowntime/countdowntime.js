@@ -6,12 +6,12 @@
       countdown100: function(options) {
         var defaults = {
           timeZone: "",
-          endtimeYear: 0,
-          endtimeMonth: 0,
-          endtimeDate: 0,
-          endtimeHours: 0,
-          endtimeMinutes: 0,
-          endtimeSeconds: 0,
+          endtimeYear: 2022,
+          endtimeMonth: 5,
+          endtimeDate: 31,
+          endtimeHours: 23,
+          endtimeMinutes: 59,
+          endtimeSeconds: 59,
         }
 
         var options =  $.extend(defaults, options);
